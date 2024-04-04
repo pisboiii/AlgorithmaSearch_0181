@@ -62,7 +62,7 @@ void LinearSearch()
     } while ((ch == 'y') || (ch == 'Y'));
 }
 
-void dsiplay()
+void display()
 {
     cout << "Array elements are: ";
     for (i = 0; i < n; i++)
@@ -73,7 +73,7 @@ int main()
 {
     input();
     LinearSearch();
-  
+    display();
 
 }
 
